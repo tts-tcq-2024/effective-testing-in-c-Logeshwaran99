@@ -17,6 +17,8 @@ int main() {
     assert(size(37) == 'S');
     assert(size(40) == 'M');
     assert(size(43) == 'L');
+    assert(size(38) == 'M'); // Failing case loop in code
+    assert(size(42) == 'L'); // Failing case loop in code
     printf("All is well (maybe!)\n");
     return 0;
 }
